@@ -1,12 +1,19 @@
-// In App.js in a new project
+import React, { useEffect, useState } from 'react';
+import {
+  StyleSheet,
+  Text,
+  View,
+  TextInput,
+  Pressable,
+  SafeAreaView
+} from 'react-native';
+import { generateClient } from 'aws-amplify/api';
+import { createTodo } from './src/graphql/mutations';
+import { listTodos } from './src/graphql/queries';
 
-import * as React from 'react';
-import { View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import LoginScreen from './screens/LoginScreen';
-import SignupScreen from './screens/SignupScreen';
-
+import { Amplify } from 'aws-amplify';
+import amplifyconfig from './src/amplifyconfiguration.json';
+Amplify.configure(amplifyconfig);
 
 const Stack = createNativeStackNavigator();
 

@@ -1,14 +1,19 @@
 {
   "dependencies": {
+    "@aws-amplify/react-native": "^1.0.20",
     "@expo/metro-runtime": "^3.1.1",
+    "@react-native-async-storage/async-storage": "^1.22.3",
+    "@react-native-community/netinfo": "^11.3.1",
     "@react-navigation/native": "^6.1.16",
     "@react-navigation/native-stack": "^6.9.25",
+    "aws-amplify": "^6.0.20",
     "expo": "^50.0.1",
     "expo-status-bar": "~1.11.1",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-native": "0.73.2",
+    "react-native-get-random-values": "^1.11.0",
     "react-native-reanimated": "~3.6.0",
     "react-native-safe-area-context": "4.8.2",
     "react-native-screens": "~3.29.0",
@@ -26,5 +31,10 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web"
-  }
+  },
+  "description": "<p>   <!-- iOS -->   <img alt=\"Supports Expo iOS\" longdesc=\"Supports Expo iOS\" src=\"https://img.shields.io/badge/iOS-4630EB.svg?style=flat-square&logo=APPLE&labelColor=999999&logoColor=fff\" />   <!-- Android -->   <img alt=\"Supports Expo Android\" longdesc=\"Supports Expo Android\" src=\"https://img.shields.io/badge/Android-4630EB.svg?style=flat-square&logo=ANDROID&labelColor=A4C639&logoColor=fff\" />   <!-- Web --> </p>",
+  "main": "App.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
